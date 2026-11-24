@@ -1,0 +1,4 @@
+[Desktop Entry]
+Name=Start Minimized Test Fixture
+Type=Application
+Exec=/usr/bin/true

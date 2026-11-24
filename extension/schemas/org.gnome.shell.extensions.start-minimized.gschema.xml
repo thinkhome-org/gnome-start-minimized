@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.start-minimized" path="/org/gnome/shell/extensions/start-minimized/">
+    <key name="apps" type="a{sb}">
+      <default>{}</default>
+      <summary>Apps to launch at login</summary>
+      <description>Each key is a desktop launcher ID. True starts it minimized; false starts it normally.</description>
+    </key>
+    <key name="first-window-only" type="as">
+      <default>[]</default>
+      <summary>Apps for which only the first window is minimized</summary>
+      <description>Desktop launcher IDs. Other minimized apps minimize all windows seen during the startup period.</description>
+    </key>
+    <key name="launchers" type="a{ss}">
+      <default>{}</default>
+      <summary>Optional launch-only desktop overrides</summary>
+      <description>Maps a configured app's desktop ID to another installed desktop launcher. Window matching still uses the configured app's ID.</description>
+    </key>
+  </schema>
+</schemalist>

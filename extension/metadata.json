@@ -1,0 +1,10 @@
+{
+  "uuid": "start-minimized@local",
+  "name": "Start Minimized",
+  "description": "Choose which desktop apps start at login and which open minimized.",
+  "settings-schema": "org.gnome.shell.extensions.start-minimized",
+  "shell-version": ["51"],
+  "version": 5,
+  "version-name": "1.0.0",
+  "url": "https://github.com/thinkhome-org/gnome-start-minimized"
+}
